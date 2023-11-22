@@ -19,7 +19,7 @@ export default function Home() {
       <main className="padding--all--xl nds-typography bgColor--blueGrey" style={{ minHeight: "100vh" }}>
         <h1 className="margin--bottom fontSize--heading0">Narmi Design System + Next.js v14</h1>
         <ContentCard kind="elevated">
-          <SeparatorList items={["Item One", "Item Two", "Item Three"]} />
+          <SeparatorList items={4} />
         </ContentCard>
       </main>
     </>
